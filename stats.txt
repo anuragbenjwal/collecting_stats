@@ -1,0 +1,375 @@
+{
+  "took" : 53,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 16652,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "system",
+      "_id" : "AVQodC1UvDpS4l-14s5_",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.798Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 2841807,
+          "user_p" : 0.0293,
+          "nice" : 0,
+          "system" : 757135,
+          "system_p" : 0.0191,
+          "idle" : 35567837,
+          "iowait" : 0,
+          "irq" : 0,
+          "softirq" : 0,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0,
+          "load5" : 0,
+          "load15" : 0
+        },
+        "mem" : {
+          "total" : 3133325312,
+          "used" : 2089230336,
+          "free" : 1044094976,
+          "used_p" : 0.67,
+          "actual_used" : 899227648,
+          "actual_free" : 1248124928,
+          "actual_used_p" : 0.29
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6N",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.865Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\McAfee Security Scan\\3.11.292\\SSScheduler.exe\" ",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 31,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 983040,
+            "rss" : 2924544,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "SSScheduler.exe",
+          "pid" : 3616,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6P",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.870Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" ",
+          "cpu" : {
+            "user" : 493758,
+            "user_p" : 0.0234,
+            "system" : 184783,
+            "total" : 678541,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 105840640,
+            "rss" : 228986880,
+            "rss_p" : 0.07,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 3204,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6Q",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.872Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=crashpad-handler /prefetch:7 --no-rate-limit \"--database=C:\\Users\\ani\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\" --url=https://clients2.google.com/cr/report --annotation=channel=m --annotation=plat=Win32 --annotation=prod=Chrome --annotation=ver=49.0.2623.112 --handshake-handle=0xac",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 15,
+            "total" : 15,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 1011712,
+            "rss" : 3387392,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 1764,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6T",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.879Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=ppapi --channel=\"3204.25.636663298\\824248507\" --ppapi-flash-args --lang=en-US --device-scale-factor=1 --ignored=\" --type=renderer \" /prefetch:3",
+          "cpu" : {
+            "user" : 736168,
+            "user_p" : 0.003,
+            "system" : 43071,
+            "total" : 779239,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 43216896,
+            "rss" : 47452160,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 3852,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6W",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.886Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/14DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/PP_Ethersuggest_A6_Stable_R8/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/EnabledDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_16/*UMA-Uniformity-Trial-10-Percent/group_09/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_11/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --disable-gpu-compositing --channel=\"3204.35.400887055\\2076861453\" /prefetch:1",
+          "cpu" : {
+            "user" : 63929,
+            "user_p" : 0,
+            "system" : 4789,
+            "total" : 68718,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 140828672,
+            "rss" : 227237888,
+            "rss_p" : 0.07,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 5284,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6b",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.897Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrCEF.exe\" --type=renderer --disable-3d-apis --disable-databases --disable-direct-npapi-requests --disable-file-system --disable-notifications --disable-shared-workers --lang=en-US --lang=en-US --log-severity=disable --product-version=\"ReaderServices/15.10.20056 Chrome/45.0.2454.85\" --device-scale-factor=1 --enable-delegated-renderer --num-raster-threads=2 --gpu-rasterization-msaa-sample-count=8 --content-image-texture-target=3553 --video-image-texture-target=3553 --disable-accelerated-video-decode --disable-webrtc-hw-encoding --disable-gpu-compositing --channel=\"3264.0.836341664\\726369552\" --allow-no-sandbox-job --font-cache-shared-handle=1144 /prefetch:673131151",
+          "cpu" : {
+            "user" : 2776,
+            "user_p" : 0.0046,
+            "system" : 109,
+            "total" : 2885,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 35287040,
+            "rss" : 50593792,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "RdrCEF.exe",
+          "pid" : 4548,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6d",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.902Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/14DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/*MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/PP_Ethersuggest_A6_Stable_R8/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/EnabledDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_16/*UMA-Uniformity-Trial-10-Percent/group_09/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_11/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --disable-gpu-compositing --channel=\"3204.47.994954354\\428457152\" /prefetch:1",
+          "cpu" : {
+            "user" : 20732,
+            "user_p" : 0.0141,
+            "system" : 2012,
+            "total" : 22744,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 60645376,
+            "rss" : 143036416,
+            "rss_p" : 0.05,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 3764,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6m",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.923Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "topbeat",
+          "cpu" : {
+            "user" : 234,
+            "user_p" : 0.011,
+            "system" : 826,
+            "total" : 1060,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 19083264,
+            "rss" : 15028224,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "topbeat.exe",
+          "pid" : 5964,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQodC1VvDpS4l-14s6n",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T08:19:42.925Z",
+        "beat" : {
+          "hostname" : "ani-PC",
+          "name" : "ani-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/14DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/*MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/PP_Ethersuggest_A6_Stable_R8/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/EnabledDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_16/*UMA-Uniformity-Trial-10-Percent/group_09/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_11/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --instant-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --disable-gpu-compositing --channel=\"3204.53.827625643\\772091520\" /prefetch:1",
+          "cpu" : {
+            "user" : 670,
+            "user_p" : 0,
+            "system" : 93,
+            "total" : 763,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 41156608,
+            "rss" : 44756992,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 5508,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "ani-PC\\ani"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
